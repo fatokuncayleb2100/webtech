@@ -19,7 +19,7 @@ a {
 
 /* ---- vraag 2 ---- */
 .v2-tekst {
-  color: red;
+  color: red; 
 }
 
 .v2-tekst {
@@ -85,5 +85,5 @@ h3 {
 .v10-tekst {
   color: green;
   font-size: 1.5rem
-  color: blue;
+  
 }
