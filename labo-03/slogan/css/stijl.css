@@ -3,6 +3,52 @@
 /* === tokens === */
 :root {
 
+
 }
+
+body {
+    text-align: center;
+    font-family: Arial;
+    margin: 0 auto;
+    width: 40rem;
+}
+
+h2 {
+    margin-top: 12rem;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+span {
+    border-bottom: 1rem solid gold;
+    border-radius: 50%;
+
+}
+p {
+    margin: 1.7rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 3rem;
+    padding: 0.5rem;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: gold;
+}
+
+a:focus {
+    background-color: aqua;
+}
+
+
+
+
 
 /* === your rules === */
