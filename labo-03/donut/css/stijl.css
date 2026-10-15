@@ -2,7 +2,42 @@
 
 /* === tokens === */
 :root {
-
+--color-paper: #ec4b03;
+--color-cirkel: #f9b700;
+--color-inkt: #b99ec1;
+--color-basic: black; 
+--font-heading: Georgia, "Times New Roman", serif;
+--line: 0.75rem solid var(--color-basic);
 }
 
+main {
+    background-color: var(--color-paper);
+    border : var(--line);
+    margin: 5vh auto;
+    width: 90vh;
+    height: 90vh;
+} 
+h1 {
+    text-align: center;
+    background-color: var(--color-cirkel);
+    font-family: var(--font-heading);
+    margin: -7% 0 0 -7%;
+    color: var(--color-basic);
+    width: 90%;
+    height: 90%;
+    border: var(--line);
+    padding-top: 40%;
+    font-weight: 900;
+    font-size: 4rem;
+     
+}
+div {
+    background-color: var(--color-inkt);
+    border: var(--line);
+    border-radius: 50%;
+    width:70%;
+    height: 70%;
+    margin:15%;
+    overflow: hidden;
+}
 /* === your rules === */
