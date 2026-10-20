@@ -32,7 +32,7 @@ grid-column: 1/4;
     ;
 }
 .marine {
-    background-color: black;
+    background-color: var(--color-vla);
     grid-column: 4/4;
    
 }
