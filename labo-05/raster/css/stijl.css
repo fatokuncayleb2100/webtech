@@ -1,0 +1,68 @@
+/* stijl.css - labo 5, raster (reset.css is linked before this file) */
+
+/* === tokens === */
+:root {
+    --color-a: #e9493f;
+    --color-b: #edd24a;
+    --color-c:#072f55;
+    --color-d:#52a51a;
+    --color-e:#efaad9;
+    --color-f:#a5f129;
+    --color-g:#ebc47a;
+    --color-h: #e8882c;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.raster {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    min-height:100vh;
+    grid-template-areas: 
+    "a . . b"
+    "c d e f"
+    "g . . h"
+    ;
+    gap: 1rem;
+    padding: 1rem;
+}
+.vlak {
+    text-align: right;
+    color: white;
+    padding: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+.a{
+    background-color: red;
+    grid-area: a;
+}
+.b{
+    background-color: orange;
+    grid-area: b;
+}
+.c {
+    background-color: #072f55;
+    grid-area: c;
+}
+.d {
+    background-color: var(--color-d);
+    grid-area: d;
+}
+.e {
+    background-color: var(--color-e);
+    grid-area: e;
+}
+.f {
+    background-color: var(--color-f);
+    grid-area: f;
+}
+.g {
+    background-color: var(--color-g);
+    grid-area: g;
+}
+.h {
+    background-color: var(--color-h);
+    grid-area: h;
+}
+/* === your rules === */
