@@ -10,40 +10,47 @@ body {
 .lijst {
     position: relative;
     align-items: center;
-    max-width: 36rem;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    
+    width: 36rem;
+    margin: 4rem auto;
+    position: relative;
 }
 img {
-    height:40rem;
-    width:100%;
     aspect-ratio: 1;
     object-fit: cover;
-    
 }
 .vlakje {
-
+width: 6rem;
+height: 6rem;
+position: absolute;
 
 }
 .roze {
     background-color: pink;
-    position: absolute;
+    top: 5rem;
+    left: 5rem;
+    z-index: 2;
+    
 }
 .groen {
     background-color: green;
-     position: absolute;
+    top: 2rem;
+    left:2rem;
 }
 .rood {
     background-color: red;
-     position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 2;
+     
 }
 .lime {
     background-color: lime;
-     position: absolute;
+    bottom: 5rem;
+    right: 5rem;
 }
 figcaption {
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
 }
 /* === your rules === */
